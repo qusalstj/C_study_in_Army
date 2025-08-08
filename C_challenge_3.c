@@ -12,7 +12,7 @@ int main(void){
     if(num1>num2)
         gdd(num1,num2);
     else if(num1<num2)
-        gdd(num2,num1)
+        gdd(num2,num1);
     else
         printf("nope");
 }
