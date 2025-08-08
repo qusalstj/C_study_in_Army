@@ -10,9 +10,10 @@ int main(void){
     int num1,num2;
     scanf("%d %d",&num1,&num2);
     if(num1>num2)
-        printf("%d",gdd(num1,num2));
+        printf("%d",gcd(num1,num2));
     else if(num1<num2)
-        printf("%d",gdd(num2,num1));
+        printf("%d",gcd(num2,num1));
     else
         printf("nope");
+    return 0;
 }
