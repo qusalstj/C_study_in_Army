@@ -6,8 +6,8 @@ int main(void){
         len++;}
     for(int i=0;i<len/2;i++){
         char box;
-        box=str[(len-i)-1];
-        str[(len-i)-1]=str[i];
+        box=str[len-1-i];
+        str[len-1-i]=str[i];
         str[i]=box;}
     printf("%s\n",str);
 }
