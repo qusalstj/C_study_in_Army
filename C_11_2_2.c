@@ -11,3 +11,4 @@ int main(void){
         str[i]=box;}
     printf("%s\n",str);
 }
+// string.h에 strlen함수 사용해보자
